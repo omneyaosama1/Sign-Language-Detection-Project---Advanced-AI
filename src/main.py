@@ -1,8 +1,7 @@
-# main.py
 import cv2
 from ultralytics import YOLO
 
-model = YOLO("models/letters_model.pt")
+model = YOLO("../models/letters_model.pt")
 cap = cv2.VideoCapture(0)
 class_names = model.names
 
